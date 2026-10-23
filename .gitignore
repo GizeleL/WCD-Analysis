@@ -1,17 +1,15 @@
-# Visualização e logs do Geant4 (pesados e regeráveis)
-*.wrl
-debug_out.txt
-*_out.txt
+# Artefatos de build e binários
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+SWGO
+*.o
+a.out
+run.txt
+vis_run.txt
 
-# Build e temporários
-2026_build/
-build/
-*.swp
-*~
-core
-core.*
-*.root
-.ipynb_checkpoints/
-
-# Duplicatas do Windows
-* - Copia*
+# Windows e editores
+*:Zone.Identifier
+*.sw?
+EOF
