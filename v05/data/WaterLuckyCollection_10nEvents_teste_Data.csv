@@ -1,0 +1,26 @@
+#class tools::wcsv::ntuple
+#title all
+#separator 44
+#vector_separator 59
+#column int iEventID
+#column double EnergyDeposited_MeV
+#column double PositionX_cm
+#column double PositionY_cm
+#column double PositionZ_cm
+#column double Time_ns
+#column double EnergyElectronSec_MeV
+#column double nElectronSec
+#column double nCerenkovByMuon
+#column double nCerenkovByElectron
+#column double EdepGammas_MeV
+#column double EdepTrack_MeV
+0,397.795,-0.468057,-0.0180077,-92.935,9.65243,70.0716,39,0,0,5.80244,397.795
+1,368.609,1.13504,0.411077,-92.935,9.73377,41.8306,34,0,0,1.26646,368.609
+2,434.683,1.19634,0.940484,-92.935,9.6146,107.872,37,0,0,14.9489,434.683
+3,407.228,0.305795,0.0130608,-92.935,9.73656,70.8246,50,0,0,3.0486,407.228
+4,479.405,-0.206865,1.50379,-92.935,9.59759,149.712,47,0,0,12.5707,479.405
+5,404.189,-1.12578,-1.52974,-92.935,9.75251,80.4115,47,0,0,3.22626,404.189
+6,414.843,0.714299,0.405983,-92.935,9.39813,90.3393,44,0,0,12.1349,414.843
+7,413.995,0.698586,-0.392745,-92.935,9.34514,88.7996,50,0,0,4.18081,413.995
+8,433.267,0.053059,0.81121,-92.935,9.71497,159.766,49,0,0,10.2741,433.267
+9,376.507,-1.16259,0.395151,-92.935,9.44966,50.038,35,0,0,1.05694,376.507

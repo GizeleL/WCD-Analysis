@@ -1,0 +1,17 @@
+#class tools::wcsv::ntuple
+#title all
+#separator 44
+#vector_separator 59
+#column int iEventID
+#column double EnergyDeposited_MeV
+#column double PositionX_cm
+#column double PositionY_cm
+#column double PositionZ_cm
+#column double Time_ns
+#column double EnergyElectronSec_MeV
+#column double nElectronSec
+#column double nCerenkovByMuon
+#column double nCerenkovByElectron
+#column double EdepGammas_MeV
+#column double EdepTrack_MeV
+0,405.153,0.424642,1.52343,-92.935,26.4545,96.028,45,62201,13174,0.0914306,405.153

@@ -1,4 +1,9 @@
-# .gitignore
+# Visualização e logs do Geant4 (pesados e regeráveis)
+*.wrl
+debug_out.txt
+*_out.txt
+
+# Build e temporários
 2026_build/
 build/
 *.swp
@@ -6,6 +11,7 @@ build/
 core
 core.*
 *.root
-*.csv
-!exemplos/*.csv
 .ipynb_checkpoints/
+
+# Duplicatas do Windows
+* - Copia*

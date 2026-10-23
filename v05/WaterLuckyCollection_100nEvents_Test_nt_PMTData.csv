@@ -1,0 +1,12 @@
+#class tools::wcsv::ntuple
+#title pmt
+#separator 44
+#vector_separator 59
+#column int iEventID
+#column int nFotonsPMT1
+#column int nFotonsPMT2
+#column int nFotonsPMT3
+#column int nFotonsPMT4
+0,0,0,0,406
+1,0,0,0,402
+2,0,0,0,393

@@ -1,0 +1,10 @@
+#class tools::wcsv::ntuple
+#title hodoscope
+#separator 44
+#vector_separator 59
+#column int iEventID
+#column int ColumnID
+#column int RowID
+#column double Edep_MeV
+#column double Time_ns
+0,16,16,4.11593,20.1171
