@@ -1,0 +1,174 @@
+
+**************************************************************
+ Geant4 version Name: geant4-11-01-patch-03 [MT]   (10-November-2023)
+                       Copyright : Geant4 Collaboration
+                      References : NIM A 506 (2003), 250-303
+                                 : IEEE-TNS 53 (2006), 270-278
+                                 : NIM A 835 (2016), 186-225
+                             WWW : http://geant4.org/
+**************************************************************
+
+ 
+DetectorConstruction ... is ready! 
+
+...Creating world...
+...world ground is ok...
+...Creating Ground...
+...Creating water...
+G4MaterialPropertiesTable for Water is OK... 
+...pmt1 is OK...
+...pmt2 is OK...
+...pmt3 is OK...
+...pmt4 is OK...
+<<< Geant4 Physics List simulation engine: QGSP_BERT_HP
+
+ 
+Register ModularPhysicsList: QGSP_BERT_HP 
+
+RegisterPhysics: G4EmStandard
+RegisterPhysics: G4GammaLeptoNuclearPhys
+RegisterPhysics: Decay
+RegisterPhysics: G4RadioactiveDecay
+RegisterPhysics: hElasticWEL_CHIPS_HP
+RegisterPhysics: hInelastic QGSP_BERT_HP
+RegisterPhysics: stopping
+RegisterPhysics: ionInelasticFTFP_BIC
+ 
+Register ModularPhysicsList: OpticalPhysics by gcosmo 
+
+...RunAction...
+...SteppingAction...
+...EventAction...
+Checking overlaps for volume worldGround:0 (G4Box) ... OK! 
+Z_water: 9393.5 cmZ_tank: 939.85 cmZ_scint: 955.35 cmZ_rpc: -939.85 cmChecking overlaps for volume wcdTank:0 (G4Tubs) ... OK! 
+Checking overlaps for volume watervol:0 (G4Tubs) ... OK! 
+G4OpticalSurface: data file /usr/local/share/Geant4/data/RealSurface2.2/GroundTyvek.z successfully read in.
+LUT - data file: GroundTyvek.z read in! 
+G4Material WARNING: duplicate name of material Air
+G4Material WARNING: duplicate name of material Air
+G4Material WARNING: duplicate name of material Air
+Checking overlaps for volume pmt_geo:0 (G4Ellipsoid) ... OK! 
+PMT1 posição Z: -78.935 cm
+Checking overlaps for volume pmt_geo2:0 (G4Ellipsoid) ... OK! 
+PMT2 posição Z: -78.935 cm
+Checking overlaps for volume pmt_geo3:0 (G4Ellipsoid) ... OK! 
+PMT3 posição Z: -78.935 cm
+Checking overlaps for volume pmt_geo4:0 (G4Ellipsoid) ... OK! 
+Checking overlaps for volume Ground_geo:0 (G4Box) ... OK! 
+PMT1 phys volume: pmt_geo
+Water phys volume: watervol
+Checking overlaps for volume hodoscope1Physical:0 (G4Box) ... OK! 
+G4OpticalSurface: data file /usr/local/share/Geant4/data/RealSurface2.2/GroundTyvek.z successfully read in.
+LUT - data file: GroundTyvek.z read in! 
+G4OpticalSurface: data file /usr/local/share/Geant4/data/RealSurface2.2/GroundTyvek.z successfully read in.
+LUT - data file: GroundTyvek.z read in! 
+G4OpticalSurface: data file /usr/local/share/Geant4/data/RealSurface2.2/GroundTyvek.z successfully read in.
+LUT - data file: GroundTyvek.z read in! 
+G4OpticalSurface: data file /usr/local/share/Geant4/data/RealSurface2.2/GroundTyvek.z successfully read in.
+LUT - data file: GroundTyvek.z read in! 
+Checking overlaps for volume hodoscope2Physical:0 (G4Box) ... OK! 
+Checking overlaps for volume hodoscope3Physical:0 (G4Box) ... OK! 
+Checking overlaps for volume hodoscope4Physical:0 (G4Box) ... OK! 
+Checking overlaps for volume hodoscope5Physical:0 (G4Box) ... OK! 
+
+ hInelastic QGSP_BERT_HP  Thresholds: 
+    1) between BERT  and FTF/P over the interval 3 to 6 GeV. 
+    2) between FTF/P and QGS/P over the interval 12 to 25 GeV. 
+  -- quasiElastic: 1 for QGS  and 0 for FTF
+/usr/local/share/Geant4/data/G4NDL4.7
+@@@ G4ParticleHPInelastic instantiated for particle neutron data directory variable is G4NEUTRONHPDATA pointing to /usr/local/share/Geant4/data/G4NDL4.7/Inelastic
+@@@ G4ParticleHPInelasticData instantiated for particle neutron data directory variable is G4NEUTRONHPDATA pointing to /usr/local/share/Geant4/data/G4NDL4.7
+NeutronHP: /Capture file for Z = 6, A = 12 is not found and NeutronHP will use /usr/local/share/Geant4/data/G4NDL4.7/Capture/CrossSection/6_nat_Carbon
+NeutronHP: /Elastic file for Z = 6, A = 12 is not found and NeutronHP will use /usr/local/share/Geant4/data/G4NDL4.7/Elastic/CrossSection/6_nat_Carbon
+NeutronHP: /Inelastic file for Z = 6, A = 12 is not found and NeutronHP will use /usr/local/share/Geant4/data/G4NDL4.7/Inelastic/CrossSection/6_nat_Carbon
+NeutronHP: /Capture file for Z = 6, A = 12 is not found and NeutronHP will use /usr/local/share/Geant4/data/G4NDL4.7/Capture/CrossSection/6_nat_Carbon
+NeutronHP: /Elastic file for Z = 6, A = 12 is not found and NeutronHP will use /usr/local/share/Geant4/data/G4NDL4.7/Elastic/CrossSection/6_nat_Carbon
+NeutronHP: /Inelastic file for Z = 6, A = 12 is not found and NeutronHP will use /usr/local/share/Geant4/data/G4NDL4.7/Inelastic/CrossSection/6_nat_Carbon
+NeutronHP: /Capture file for Z = 6, A = 12 is not found and NeutronHP will use /usr/local/share/Geant4/data/G4NDL4.7/Capture/CrossSection/6_nat_Carbon
+NeutronHP: /Elastic file for Z = 6, A = 12 is not found and NeutronHP will use /usr/local/share/Geant4/data/G4NDL4.7/Elastic/CrossSection/6_nat_Carbon
+NeutronHP: /Inelastic file for Z = 6, A = 12 is not found and NeutronHP will use /usr/local/share/Geant4/data/G4NDL4.7/Inelastic/CrossSection/6_nat_Carbon
+NeutronHP: /Capture file for Z = 6, A = 12 is not found and NeutronHP will use /usr/local/share/Geant4/data/G4NDL4.7/Capture/CrossSection/6_nat_Carbon
+NeutronHP: /Elastic file for Z = 6, A = 12 is not found and NeutronHP will use /usr/local/share/Geant4/data/G4NDL4.7/Elastic/CrossSection/6_nat_Carbon
+NeutronHP: /Inelastic file for Z = 6, A = 12 is not found and NeutronHP will use /usr/local/share/Geant4/data/G4NDL4.7/Inelastic/CrossSection/6_nat_Carbon
+NeutronHP: /Capture file for Z = 6, A = 12 is not found and NeutronHP will use /usr/local/share/Geant4/data/G4NDL4.7/Capture/CrossSection/6_nat_Carbon
+NeutronHP: /Elastic file for Z = 6, A = 12 is not found and NeutronHP will use /usr/local/share/Geant4/data/G4NDL4.7/Elastic/CrossSection/6_nat_Carbon
+NeutronHP: /Inelastic file for Z = 6, A = 12 is not found and NeutronHP will use /usr/local/share/Geant4/data/G4NDL4.7/Inelastic/CrossSection/6_nat_Carbon
+NeutronHP: /Capture file for Z = 6, A = 12 is not found and NeutronHP will use /usr/local/share/Geant4/data/G4NDL4.7/Capture/CrossSection/6_nat_Carbon
+NeutronHP: /Elastic file for Z = 6, A = 12 is not found and NeutronHP will use /usr/local/share/Geant4/data/G4NDL4.7/Elastic/CrossSection/6_nat_Carbon
+NeutronHP: /Inelastic file for Z = 6, A = 12 is not found and NeutronHP will use /usr/local/share/Geant4/data/G4NDL4.7/Inelastic/CrossSection/6_nat_Carbon
+ExtraPhysics:: Add Extra Physics Processes
+OpticalPhysics:: Add Optical Physics Processes
+### Birks coefficients used in run time
+G4PhysicsListHelper::RegisterProcess :Radioactivation for GenericIon with  type/subtype =6/210  is has same subType as Radioactivation for GenericIon
+It will not be added !!
+
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : Run0111
+      issued by : G4PhysicsListHelper::RegisterProcess
+Duplication of processes
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4PhysicsListHelper::RegisterProcess :Radioactivation for triton with  type/subtype =6/210  is has same subType as Radioactivation for triton
+It will not be added !!
+
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : Run0111
+      issued by : G4PhysicsListHelper::RegisterProcess
+Duplication of processes
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+G4OpenGLXViewer::G4OpenGLXViewer couldn't open display.
+G4OpenGLStoredX::CreateViewer: error flagged by negative view id in G4OpenGLStoredXViewer creation.
+ Destroying view and returning null pointer.
+
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : UIMAN0123
+      issued by : G4UImanager::ApplyCommand
+WARNING: No viewer created.
+Error code : 1
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : UIMAN0123
+      issued by : G4UImanager::ApplyCommand
+Invoked command has failed - see above. Available graphics systems are:
+ Registered graphics systems are:
+  ASCIITree (ATree)
+  DAWNFILE (DAWNFILE)
+  G4HepRepFile (HepRepFile)
+  RayTracer (RayTracer)
+  VRML2FILE (VRML2FILE)
+  gMocrenFile (gMocrenFile)
+  TOOLSSG_OFFSCREEN (TSG_OFFSCREEN)
+  TOOLSSG_OFFSCREEN (TSG_OFFSCREEN, TSG_FILE)
+  OpenGLImmediateQt (OGLIQt, OGLI)
+  OpenGLStoredQt (OGLSQt, OGL, OGLS)
+  OpenGLImmediateXm (OGLIXm, OGLIQt_FALLBACK)
+  OpenGLStoredXm (OGLSXm, OGLSQt_FALLBACK)
+  OpenGLImmediateX (OGLIX, OGLIQt_FALLBACK, OGLIXm_FALLBACK)
+  OpenGLStoredX (OGLSX, OGLSQt_FALLBACK, OGLSXm_FALLBACK)
+  RayTracerX (RayTracerX)
+  TOOLSSG_X11_GLES (TSG_X11_GLES, TSGX11, TSG_XT_GLES_FALLBACK)
+  TOOLSSG_XT_GLES (TSG_XT_GLES, TSGXt, TSG_QT_GLES_FALLBACK)
+  TOOLSSG_QT_GLES (TSG_QT_GLES, TSGQt, TSG)
+
+Error code : 1
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+***** Illegal parameter (1) </vis/open OGL 600x600-0+0> *****
+
+***** Batch is interrupted!! *****
+
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : UIMAN0123
+      issued by : G4UImanager::ApplyCommand
+Command aborted (1)
+Error code : 1
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+

@@ -1,0 +1,11 @@
+# .gitignore
+2026_build/
+build/
+*.swp
+*~
+core
+core.*
+*.root
+*.csv
+!exemplos/*.csv
+.ipynb_checkpoints/

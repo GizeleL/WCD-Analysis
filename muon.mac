@@ -1,0 +1,44 @@
+#################
+##
+## This example demonstrates the cerenkov process by using a 200 MeV mu+
+## particle in a geometry configuration that shows the cerenkov cone
+## and pmts hit by it.
+##
+#################
+
+//control/verbose 0
+/tracking/verbose 0
+/run/verbose 0
+/run/initialize
+
+/gps/particle mu-
+/gps/pos/type Point
+############0deg
+/gps/direction 0. 0. -1.
+/gps/pos/centre 0. 0. 7000. mm
+
+############10 deg
+#/gps/direction 0.1736 0. -0.9848
+#/gps/pos/centre -1067. 0. 7000. mm 
+
+###########15deg 
+#/gps/direction 0.2588 0. -0.9659
+#/gps/pos/centre -1648. 0. 7000. mm 
+
+###########30deg 
+#/gps/direction 0.5 0. -0.866
+#/gps/pos/centre -3493. 0. 7000. mm 
+
+############45 deg
+#/gps/direction 0.7071 0. -0.7071
+#/gps/pos/centre -6051. 0. 7000. mm
+
+############60deg
+#/gps/direction 0.8660 0. -0.5000
+#/gps/pos/centre -10654. 0. 6119. mm
+
+/gps/ene/type Mono
+/gps/ene/mono 5. GeV
+
+/run/printProgress 1
+/run/beamOn 1000

@@ -1,0 +1,15 @@
+/control/verbose 0
+/tracking/verbose 0
+/run/verbose 0
+/run/initialize
+
+# Múon vertical descendente, energia fixa 5 GeV, posição central
+/gps/particle mu-
+/gps/pos/type Point
+/gps/pos/centre 0. 0. 200. mm
+/gps/direction 0. 0. -1.
+/gps/ene/type Mono
+/gps/ene/mono 5. GeV
+
+/run/printProgress 100
+/run/beamOn 1000

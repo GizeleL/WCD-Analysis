@@ -1,0 +1,22 @@
+#################
+##
+## This example demonstrates the cerenkov process by using a 5 GeV mu-
+## particle in a geometry configuration that shows the cherenkov cone
+## and pmts hit by it.
+##
+#################
+
+//control/verbose 0
+/tracking/verbose 0
+/run/verbose 0
+/run/initialize
+
+/gps/particle mu-
+/gps/pos/type Point
+/gps/pos/centre 0. 0. 9600. mm
+/gps/direction 0. 0. -1.
+/gps/ene/type Mono
+/gps/ene/mono 5. GeV
+
+/run/printProgress 1
+/run/beamOn 1000

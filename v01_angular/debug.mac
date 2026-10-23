@@ -1,0 +1,9 @@
+/run/initialize
+/tracking/verbose 2
+/gps/particle mu-
+/gps/pos/type Point
+/gps/direction 0. 0. -1.
+/gps/pos/centre 0. 0. 7000. mm
+/gps/ene/type Mono
+/gps/ene/mono 5. GeV
+/run/beamOn 1

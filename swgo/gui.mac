@@ -1,0 +1,30 @@
+#
+# This file permits to customize, with commands,
+# the menu bar of the G4UIXm, G4UIQt, G4UIWin32 sessions.
+# It has no effect with G4UIterminal.
+#
+# Process vis.mac (and draw geometry)
+#
+/control/execute vis.mac
+#
+# File menu :
+/gui/addMenu file File
+/gui/addButton file Quit exit
+#
+# Gps menu :
+/gui/addMenu gps Gps
+/gui/addButton gps "511 keV"  "/gps/energy 511 keV"
+/gui/addButton gps "5 MeV"  "/gps/energy 5 MeV"
+/gui/addButton gps "50 MeV"   "/gps/energy 50 MeV"
+/gui/addButton gps "1 GeV"   "/gps/energy 1 GeV"
+/gui/addButton gps "4 GeV"   "/gps/energy 4 GeV"
+/gui/addButton gps "mu+"  "/gps/particle mu+"
+/gui/addButton gps "proton"  "/gps/particle proton"
+/gui/addButton gps "gamma"  "/gps/particle gamma"
+#
+# Run menu :
+/gui/addMenu run Run
+/gui/addButton run "beamOn 1" "/run/beamOn 1"
+/gui/addButton run "beamOn 5" "/run/beamOn 5"
+/gui/addButton run "beamOn 10" "/run/beamOn 10"
+#
