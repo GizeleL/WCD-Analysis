@@ -1,0 +1,8 @@
+/process/inactivate Cerenkov
+/process/inactivate OpAbsorption
+/process/inactivate OpBoundary
+/process/inactivate OpRayleigh
+/process/inactivate OpMieHG
+/process/inactivate OpWLS
+/run/beamOn 1000
+

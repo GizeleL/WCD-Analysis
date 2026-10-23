@@ -1,0 +1,17 @@
+#class tools::wcsv::ntuple
+#title rpcs
+#separator 44
+#vector_separator 59
+#column int iEventID
+#column int RPCID
+#column int ColumnID
+#column int RowID
+#column double Edep_MeV
+#column double Time_ns
+579,4,7,7,9.37043,47.1199
+709,4,7,7,8.30674,46.9185
+753,2,0,7,7.99028,47.0453
+807,2,0,7,8.92034,46.9543
+883,4,7,7,9.1674,47.0903
+895,2,0,7,7.84816,47.0642
+910,4,7,7,8.51822,47.1229

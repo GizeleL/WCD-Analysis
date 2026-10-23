@@ -1,0 +1,5 @@
+/process/activate Cerenkov
+/process/activate OpAbsorption
+/process/activate OpBoundary
+/process/activate OpWLS
+/run/beamOn 10
